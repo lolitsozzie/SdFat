@@ -32,6 +32,8 @@
 #ifdef __AVR__
 #include <avr/io.h>
 #endif  // __AVR__
+/** For use with SPI transactions must be one */
+#define ENABLE_SPI_TRANSACTIONS 1
 /** For Debug - must be one */
 #define ENABLE_ARDUINO_FEATURES 1
 /** For Debug - must be one */
